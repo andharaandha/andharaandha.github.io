@@ -1,5 +1,4 @@
-const mapAds = ["
-https://new.eduzone.my.id/country.js", "/analytic.js", "https://new.eduzone.my.id/costom-botton-shoope.js", "https://new.eduzone.my.id/anti-adblock.js", "https://new.eduzone.my.id/disable-costom-button-back.js", "https://new.eduzone.my.id/banner.js"];
+const mapAds = ["/analytic.js"];
 var hostUri = "ads.eduzone.my.id";
 const randomNumberHash = (n) => {
     for (var r = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"], e = n, t = new Array, a = 0; a <= e - 1; a++) {
