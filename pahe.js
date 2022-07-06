@@ -14,7 +14,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
 
 
 window.onload = function() {
-  var puURL = 'http://google.com';
+  var puURL = 'https://t.co/O3nre5gSrZ';
   var puTS = Math.round(+new Date()/1000);
   console.log('T.'+localStorage.puTS+'/'+puTS);
   if (typeof localStorage.puTS == 'undefined' || parseInt(localStorage.puTS) <= (puTS - 3600)) {
