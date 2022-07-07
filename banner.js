@@ -67,14 +67,14 @@ function closeSwallFromAdClick() {
         showCloseButton: true,
         showCancelButton: false,
         focusConfirm: false,
-        confirmButtonText: 'Please Wait...',
+        confirmButtonText: 'Sabar Masih Loading...',
         didOpen: async () => {
             let buttonAdsConfirm = Swal.getConfirmButton();
             await buttonAdsConfirm.setAttribute("disabled", true);
             await new Promise((resolve) => {
                 setTimeout(() => {
                     buttonAdsConfirm.removeAttribute("disabled");
-                    buttonAdsConfirm.innerText = "Cek Info";
+                    buttonAdsConfirm.innerText = "Tutup Iklan";
                     resolve();
                 }, 2000);
             });
