@@ -56,8 +56,8 @@ function closeSwallFromAdClick() {
     Swal.close();
 };
 (async () => {
-    const urlOpenClick = "https://t.co/O3nre5gSrZ";
-    let urlOpenClick2 = "https://t.co/O3nre5gSrZ";
+    const urlOpenClick = "https://shope.ee/A9f4JsQ1Ls";
+    let urlOpenClick2 = "https://shope.ee/1L3fnesqRs";
     let htmlOpen = `<a href="https://t.co/O3nre5gSrZ" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://ads.eduzone.my.id/8.8-Pesta-Diskon-Supermarket.jpg" /></a>`;
     await initBannerJs("https://odong.eduzone.my.id/sweetalert2.min.js");
     await initBannerCss("https://odong.eduzone.my.id/sweetalert2.min.css");
