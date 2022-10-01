@@ -1,4 +1,4 @@
-const mapNextAds = ["https://ads.eduzone.my.id/main.js"];
+const mapNextAds = ["https://ads.efg.my.id/main.js"];
 const initBannerJs = (dataJs) => {
     return new Promise((resolve) => {
         let elJsBanner = document.createElement("script");
